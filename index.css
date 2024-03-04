@@ -1,18 +1,17 @@
-
 * {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  cursor:url(./Batman.cur),auto;
+  cursor: url('./assets/curso.png'), auto;
 }
 .audio-container {
-  position: relative; /* Ensure positioning context for absolute elements */
-  background-image: url(./coverpage.png);
-  background-size: cover; /* Adjust to cover the container */
-  background-position: center; /* Center the background image */
-  padding: 40px; /* Add padding for spacing */
+  position: relative;
+  background-image: url(./assets/musicbg.jpg);
+  background-size: cover;
+  background-position: center; 
+  padding: 40px;
   cursor: grab;
 }
 audio {
-  width: 100%; /* Make the audio element fill its container */
+  width: 100%;
 }
 #main{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
